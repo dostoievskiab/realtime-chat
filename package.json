@@ -1,15 +1,24 @@
 {
-  "name": "chat-example",
+  "name": "realtime-chat",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "I started this project a long time ago (Dec/2017). I wanted to know if was possible to create a simple chat using my knowledge with javascript, html and css.",
+  "main": "app/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dostoievskiab/realtime-chat.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dostoievskiab/realtime-chat/issues"
+  },
+  "homepage": "https://github.com/dostoievskiab/realtime-chat#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "socket.io": "^2.0.4"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
   }
 }
