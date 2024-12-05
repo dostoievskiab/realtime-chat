@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dostoievskiab/realtime-chat#readme",
   "dependencies": {
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "nodemon": "^2.0.12",
     "socket.io": "^4.8.0"
   }
